@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chickenjoy Sales Calculator</title>
+    <link rel="stylesheet" href="ChickenJoyCalculator.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Chickenjoy Sales Calculator</h1>
+        <form id="calculator-form">
+            <div class="input-group">
+                <label for="sales">Sales (S):</label>
+                <input type="number" id="sales" step="0.01" required>
+            </div>
+            <div class="input-group">
+                <label for="daily-expenses">Daily Expenses (DE):</label>
+                <input type="number" id="daily-expenses" step="0.01" required>
+            </div>
+            <div class="input-group">
+                <label for="loans-expenses">Loans Expenses (L):</label>
+                <input type="number" id="loans-expenses" step="0.01" required>
+            </div>
+            <div class="input-group">
+                <label for="employee-salary">Employee Salary (EPS):</label>
+                <input type="number" id="employee-salary" step="0.01" required>
+            </div>
+            <div class="input-group">
+                <label for="capital">Capital (C):</label>
+                <input type="number" id="capital" step="0.01" required>
+            </div>
+            <div class="input-group">
+                <label for="chicken-intestines">Chicken Intestines (CI):</label>
+                <input type="number" id="chicken-intestines" step="0.01" required>
+            </div>
+            <div class="input-group">
+                <label for="chicken-feet">Chicken Feet (CF):</label>
+                <input type="number" id="chicken-feet" step="0.01" required>
+            </div>
+            <div class="input-group">
+                <label for="chicken-head">Chicken Head (CH):</label>
+                <input type="number" id="chicken-head" step="0.01" required>
+            </div>
+            <div class="input-group">
+                <label for="chicken-joy">Chicken Joy (CJ):</label>
+                <input type="number" id="chicken-joy" step="0.01" required>
+            </div>
+            <button type="button" onclick="calculate()">Calculate</button>
+        </form>
+
+        <div class="results">
+            <h2>Results</h2>
+            <p id="result-es"></p>
+            <p id="result-ep"></p>
+            <p id="result-p"></p>
+            <p id="result-tls"></p>
+            <p id="result-tlp"></p>
+            <p id="result-cis"></p>
+            <p id="result-cfes"></p>
+            <p id="result-ches"></p>
+            <p id="result-cjes"></p>
+            <p id="result-cies"></p>
+            <p id="result-cfs"></p>
+            <p id="result-chs"></p>
+            <p id="result-cjs"></p>
+        </div>
+    </div>
+    <script src="ChickenjoyCalculator.js"></script>
+</body>
+</html>
